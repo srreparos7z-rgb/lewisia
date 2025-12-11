@@ -17,8 +17,8 @@ sudo apt-get install -y \
     libatlas-base-dev  # Para numpy em ARM
 
 # Clona repositório (se aplicável)
-git clone https://github.com/seu-usuario/lewis-ai.git
-cd lewis-ai
+git clone https://github.com/srreparos7z-rgb/lewisia
+cd lewisia
 
 # Instala dependências Python
 pip3 install -r requirements.txt
