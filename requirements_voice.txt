@@ -1,0 +1,25 @@
+# Dependências principais para comando por voz
+numpy>=1.21.0
+scipy>=1.7.0  # Para processamento de áudio
+
+# Backends de áudio (teste múltiplos)
+pyaudio>=0.2.11
+sounddevice>=0.4.0
+pyalsaaudio>=0.9.0  # Para ALSA direto
+
+# Reconhecimento de voz (escolha um)
+vosk>=0.3.45  # Offline, leve, suporta ARM
+# whisper>=1.0.0  # Mais pesado, mas mais preciso
+# pocketsphinx>=0.1.15  # Muito leve, mas menos preciso
+
+# Síntese de voz
+pyttsx3>=2.90
+espeak-ng  # Instalar via apt: sudo apt install espeak-ng
+
+# Otimização
+uvloop>=0.17.0
+aiohttp>=3.8.0
+
+# Utilitários
+psutil>=5.9.0
+python-dotenv>=0.19.0
